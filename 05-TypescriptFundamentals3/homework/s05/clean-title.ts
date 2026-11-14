@@ -1,4 +1,5 @@
 // start from '   broken STREET light   ' and print it trimmed, in lower case, in upper case, capitalized (Broken street light), whether it mentions "light", and with "street" replaced by "road"
+
 const title: string = "   broken STREET light   ";
 //print it trimmed
 console.log(title.trim());

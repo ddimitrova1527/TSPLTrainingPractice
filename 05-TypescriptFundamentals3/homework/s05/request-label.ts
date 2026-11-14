@@ -1,4 +1,5 @@
 //build the label REQ-1042 [P2] Broken street light (Lighting) from separate constants, print it, then print its length with .length
+
 const requestId: string = "REQ-1042";
 const priority: string = "[P2]";
 const description: string = "Broken street light";

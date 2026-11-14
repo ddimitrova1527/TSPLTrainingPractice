@@ -1,5 +1,7 @@
 //declare your first name, last name, team, years in the company and whether you like coffee, then print each on its own line with template literals
-//npx ts-node GIT/TSPLTrainingPractice/05-TypescriptFundamentals3/homework/s05/about-me.ts
+
+//npx tsx C:\GIT\TSPLTrainingPractice\05-TypescriptFundamentals3\homework\s05\about-me.ts
+
 const firstName: string = "Daniela";
 const lastName: string = "Dimitrova";
 const team: string = "Vega";
