@@ -4,10 +4,10 @@ const firstName: string = "Daniela";
 const lastName: string = "Dimitrova";
 const team: string = "Vega";
 const yearsInCompany: number = 4;
-const likesCoffee: boolean = true;
+const likeCoffee: boolean = true;
 
 console.log(`First Name: ${firstName}`);
 console.log(`Last Name: ${lastName}`);
 console.log(`Team: ${team}`);
 console.log(`Years in Company: ${yearsInCompany}`);
-console.log(`Likes Coffee: ${likesCoffee}`);
+console.log(`Like Coffee: ${likeCoffee}`);

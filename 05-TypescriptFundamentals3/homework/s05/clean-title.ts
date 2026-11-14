@@ -15,4 +15,5 @@ console.log(capitalizedTitle);
 //print whether it mentions "light"
 console.log(title.includes("light"));
 //print with "street" replaced by "road"
-console.log(title.replace("street", "road"));
+const replacedTitle: string = title.replace(/street/i, "road");
+console.log(replacedTitle);
