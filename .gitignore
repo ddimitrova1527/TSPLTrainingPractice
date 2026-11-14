@@ -3,3 +3,9 @@ test-results/
 playwright-report/
 .env
 *.local.json
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
