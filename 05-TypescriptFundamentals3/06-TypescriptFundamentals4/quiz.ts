@@ -45,7 +45,6 @@ for (const [index, color] of colors.entries()) {
   console.log(index, color);
 }
 
-
 for (let i = 1; i <= 5; i++) {
   console.log(`Creating request ${i} of 5`);
 }
