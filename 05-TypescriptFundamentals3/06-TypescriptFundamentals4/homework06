@@ -1,0 +1,68 @@
+//Write a request status validator: given the current and the next status, print whether the transition is allowed (Submitted → In Review → Resolved; In Review → Waiting for Info → In Review)
+const transitions = {
+  Submitted: ["In Review"],
+  "In Review": ["Resolved", "Waiting for Info"],
+  "Waiting for Info": ["In Review"],
+  Resolved: [],
+};
+
+const current = "Submitted";
+const next = "Resolved";
+
+if (!(current in transitions)) {
+  throw new Error(`Unknown status: ${current}`);
+}
+
+const allowed = transitions[current].includes(next);
+console.log(`${current} -> ${next}: ${allowed ? "allowed" : "NOT allowed"}`);
+
+//Print a text table of requests: id, title padded to 25 characters, priority, status
+const requests = [
+  { id: 1, title: "Reset password", priority: 2, status: "Submitted" },
+  {
+    id: 2,
+    title: "Printer not working on floor 3",
+    priority: 3,
+    status: "In Review",
+  },
+  { id: 3, title: "VPN access", priority: 1, status: "Waiting for Info" },
+  { id: 4, title: "New laptop request", priority: 4, status: "Resolved" },
+];
+
+console.log(
+  "ID".padEnd(4) + "Title".padEnd(25) + "Priority".padEnd(10) + "Status",
+);
+console.log("-".repeat(60));
+
+for (const r of requests) {
+  console.log(
+    String(r.id).padEnd(4) +
+      r.title.padEnd(25) +
+      String(r.priority).padEnd(10) +
+      r.status,
+  );
+}
+
+//Generate test data: 10 request titles "Test request 01" … "Test request 10" with priorities cycling 1–5
+const testData = [];
+for (let i = 1; i <= 10; i++) {
+  const title = `Test request ${i.toString().padStart(2, "0")}`;
+  const priority = (i % 5) + 1;
+  testData.push({ id: i, title, priority, status: "Submitted" });
+}
+
+//Stretch: print the allowed transitions as a matrix using nested loops
+console.log("Allowed Transitions Matrix:");
+console.log("-".repeat(60));
+
+const statuses = Object.keys(transitions);
+console.log("From\\To".padEnd(15), ...statuses.map((s) => s.padEnd(15)));
+
+for (const from of statuses) {
+  let row = from.padEnd(15);
+  for (const to of statuses) {
+    const isAllowed = transitions[from].includes(to);
+    row += (isAllowed ? "✓" : "✗").padEnd(15);
+  }
+  console.log(row);
+}

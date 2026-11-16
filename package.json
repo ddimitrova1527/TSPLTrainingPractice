@@ -1,0 +1,25 @@
+{
+  "name": "tspltrainingpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddimitrova1527/TSPLTrainingPractice.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ddimitrova1527/TSPLTrainingPractice/issues"
+  },
+  "homepage": "https://github.com/ddimitrova1527/TSPLTrainingPractice#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
