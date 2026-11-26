@@ -1,0 +1,17 @@
+{
+  "name": "request-report",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Session 10 · Request Queue Report · starter",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "start": "tsx src/main.ts",
+    "start:broken": "tsx src/main.ts data/broken.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

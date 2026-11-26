@@ -1,0 +1,14 @@
+[
+  { "id": 101, "title": "Broken street light on Vitosha Blvd", "category": "Lighting", "priority": 2, "status": "Submitted", "hoursOpen": 30 },
+  { "id": 102, "title": "Pothole in front of the school", "category": "Roads", "priority": 1, "status": "In Review", "hoursOpen": 9 },
+  { "id": 103, "title": "Overflowing bins near the market", "category": "Waste", "priority": 3, "status": "Submitted", "hoursOpen": 12 },
+  { "id": 104, "title": "Graffiti on the library wall", "category": "Parks", "priority": 5, "status": "Resolved", "hoursOpen": 140 },
+  { "id": 105, "title": "Water leak under the bridge", "category": "Water", "priority": 1, "status": "Submitted", "hoursOpen": 2 },
+  { "id": 106, "title": "Fallen tree blocks the bike path", "category": "Parks", "priority": 2, "status": "In Review", "hoursOpen": 50 },
+  { "id": 107, "title": "Noisy construction at night", "category": "Noise", "priority": 4, "status": "Submitted", "hoursOpen": 80 },
+  { "id": 108, "title": "Missing manhole cover", "category": "Roads", "priority": 1, "status": "Resolved", "hoursOpen": 3 },
+  { "id": 109, "title": "Traffic light stuck on red", "category": "Lighting", "priority": 1, "status": "In Review", "hoursOpen": 6 },
+  { "id": 110, "title": "Bench broken in the city garden", "category": "Parks", "priority": 5, "status": "Submitted", "hoursOpen": 20 },
+  { "id": 111, "title": "Low water pressure in block 12", "category": "Water", "priority": 3, "status": "Resolved", "hoursOpen": 40 },
+  { "id": 112, "title": "Recycling not collected this week", "category": "Waste", "priority": 4, "status": "In Review", "hoursOpen": 75 }
+]

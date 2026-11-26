@@ -1,0 +1,10 @@
+[
+  { "id": 1.5, "title": "Fractional id", "category": "Roads", "priority": 2, "status": "Submitted", "hoursOpen": 5 },
+  { "id": 2, "title": "Negative hours open", "category": "Roads", "priority": 2, "status": "Submitted", "hoursOpen": -3 },
+  { "id": 3, "title": "Priority zero", "category": "Water", "priority": 0, "status": "In Review", "hoursOpen": 8 },
+  { "id": 4, "title": "Blank category here", "category": "   ", "priority": 3, "status": "Submitted", "hoursOpen": 8 },
+  { "id": 5, "title": "Status in wrong case", "category": "Parks", "priority": 3, "status": "resolved", "hoursOpen": 8 },
+  { "id": 6, "title": "Hours as text", "category": "Parks", "priority": 3, "status": "Submitted", "hoursOpen": "12" },
+  { "id": 7, "title": 12345, "category": "Parks", "priority": 3, "status": "Submitted", "hoursOpen": 12 },
+  { "id": 8, "title": "One good request", "category": "Parks", "priority": 3, "status": "Submitted", "hoursOpen": 12 }
+]

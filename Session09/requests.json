@@ -1,0 +1,12 @@
+[
+  { "id": 1001, "title": "Broken street light", "category": "Lighting", "priority": 2, "status": "In Review", "hoursOpen": 30 },
+  { "id": 1007, "title": "Pothole on Vitosha Blvd", "category": "Roads", "priority": 1, "status": "Submitted", "hoursOpen": 6 },
+  { "id": 1015, "title": "Graffiti on the school wall", "category": "Parks", "priority": 5, "status": "Resolved", "hoursOpen": 80 },
+  { "id": 1023, "title": "Overflowing bins at the market", "category": "Waste", "priority": 9, "status": "Waiting for Info", "hoursOpen": 20 },
+  { "id": 1042, "title": "Water leak on Rakovski Street", "category": "Water", "priority": 3, "status": "Closed", "hoursOpen": 30 },
+  { "id": 1050, "title": "Fallen tree blocks the path", "category": "Parks", "priority": 2, "status": "Submitted", "hoursOpen": 12 },
+  { "id": 1061, "title": "Missing manhole cover", "category": "Roads", "priority": 1, "status": "Resolved", "hoursOpen": "2" },
+  { "id": 1078, "title": "Broken swing in the park", "category": "Parks", "priority": 4, "status": "Submitted", "hoursOpen": 75 },
+  { "id": 1085, "title": "Blocked storm drain", "category": "Water", "priority": 3, "status": "In Review", "hoursOpen": 18 },
+  { "id": 1090, "title": "Faded crosswalk paint", "category": "Roads", "priority": 4, "status": "Waiting for Info", "hoursOpen": 40 }
+]
