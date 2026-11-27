@@ -1,0 +1,10 @@
+[
+  { "id": 201, "title": "Broken swing on the playground", "category": "Parks", "priority": 3, "status": "Submitted", "hoursOpen": 30 },
+  { "id": "202", "title": "Water leak on Rakovski St", "category": "Water", "priority": 1, "status": "Submitted", "hoursOpen": 5 },
+  { "id": 203, "title": "Bin", "category": "Waste", "priority": 3, "status": "Submitted", "hoursOpen": 4 },
+  { "id": 204, "title": "Street sign knocked down", "category": "Roads", "priority": 9, "status": "In Review", "hoursOpen": 10 },
+  { "id": 205, "title": "Flickering lamp at the bus stop", "category": "Lighting", "priority": 2, "status": "Closed", "hoursOpen": 10 },
+  { "id": 206, "title": "Loud music from the bar", "category": "Noise", "priority": 4, "status": "Submitted" },
+  null,
+  { "id": 208, "title": "Pothole on the ring road", "category": "Roads", "priority": 1, "status": "In Review", "hoursOpen": 7 }
+]
